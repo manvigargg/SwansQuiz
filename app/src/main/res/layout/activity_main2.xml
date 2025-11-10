@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:text="What is Swan's Color?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/radioButton"
+                android:text="Pink"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radioButton2"
+                android:text="White"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radioButton3"
+                android:text="Blue"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:text="Bonus: I really like swans quizzes!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
